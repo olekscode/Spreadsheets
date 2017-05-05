@@ -3,5 +3,5 @@
 FloatCell::FloatCell(QString value)
     : NumberCell(value)
 {
-    this->setTextColor(QColor(255, 0, 255));
+    this->setTextColor(QColor(65, 112, 141));
 }

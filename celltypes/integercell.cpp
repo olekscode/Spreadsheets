@@ -3,5 +3,5 @@
 IntegerCell::IntegerCell(QString value)
     : NumberCell(value)
 {
-    this->setTextColor(QColor(0, 0, 255));
+    this->setTextColor(QColor(19, 124, 189));
 }

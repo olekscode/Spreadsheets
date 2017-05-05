@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLineEdit>
 
 #include "views/sheetview.h"
 
@@ -20,6 +21,7 @@ public:
 private:
     Ui::MainWindow *ui;
     SheetView *sheetView;
+    QLineEdit *functionEdit;
 };
 
 #endif // MAINWINDOW_H

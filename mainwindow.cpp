@@ -7,6 +7,11 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     sheetView = new SheetView(this);
     setCentralWidget(sheetView);
+
+    functionEdit = new QLineEdit(this);
+
+    QToolBar *toolBar = addToolBar(tr("Navigation"));
+    toolBar->addWidget(functionEdit);
 }
 
 MainWindow::~MainWindow()
